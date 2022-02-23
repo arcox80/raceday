@@ -14,3 +14,5 @@ if (runnersAge > 18 && earlyRegistrant == true) {
 } else {
   console.log(`Tell your parents your number is ${raceNumber}, and you will race at 12:30pm.`);
 }
+
+//Since 18 is technically considered an adult, I would account for it by switching the if statements to (runnersAge >= 18 && ...)

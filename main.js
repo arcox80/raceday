@@ -1,7 +1,7 @@
 let raceNumber = Math.floor(Math.random() * 1000);
 let earlyRegistrant = Math.floor(Math.random() * 2);
 let runnersAge = Math.floor(Math.random() * 76 + 5); 
-//console.log(`Race number is ${raceNumber}; Early registration is ${earlyRegistrant}; Age is ${runnersAge}`);
+//console.log(`Race number is ${raceNumber}; Early registration is ${earlyRegistrant == 1}; Age is ${runnersAge}`);
 
 if (runnersAge > 18 && earlyRegistrant == true) {
   raceNumber += 1000;

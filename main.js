@@ -5,7 +5,6 @@ let runnersAge = Math.floor(Math.random() * 76 + 5);
 
 if (runnersAge > 18 && earlyRegistrant == true) {
   raceNumber += 1000;
-  console.log(raceNumber);
 }
 
 if (runnersAge > 18 && earlyRegistrant == true) {
